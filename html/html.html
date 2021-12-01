@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Wide Web</title>
+    <link rel="stylesheet" href="./default.css">
+    <style>
+        /* button{
+            padding:10px 20px;
+            font-weight:bold;
+            font-size:20px;
+            position:absolute;
+            left:200px;
+            top:24px;
+        } */
+    </style>
+</head>
+<body>
+    <h1>WEB</h1> 
+    <button onclick="
+    //   let btnMod = document.querySelector('button');
+      if(this.innerText =='dark') {
+          darkMode();
+          this.innerText = 'light'
+    }else{
+        lightMode();
+        this.innerText = 'dark'
+    }
+    ">dark</button>
+    <!-- <button onclick="lightMode();">
+        light
+    </button> -->
+   <ol>
+        <li><a href="html.html">HTML</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="js.html">javaScript</a></li>
+   </ol>
+    <div>
+        <h2>HTML</h2>
+        <img src="./img-html.jpg" alt="HTML 이미지">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id hic delectus saepe, illum voluptas distinctio molestias, officia earum ipsum debitis sit beatae nulla labore nobis. Commodi necessitatibus nobis repudiandae asperiores.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, fugit numquam porro esse a voluptates reprehenderit omnis dolorem harum. Facilis placeat ex reprehenderit maiores et nostrum, sed ab. Inventore, delectus.
+            <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusantium obcaecati error fugiat nobis doloribus saepe doloremque sed possimus, perferendis dolor nemo quas ad quia distinctio praesentium animi totam quasi!
+        </p>
+    </div>
+    <script src="./dark-light.js"></script>
+
+</body>
+</html>
