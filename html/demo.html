@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 노토산스코리안 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>demo</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        :root{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size:16px;
+            font-weight:400;
+        }
+        .wrap>*{
+            height:100vh;
+        }
+        h1,h2{
+            width: 200px;
+            margin: 0 auto;
+            padding: 10px;
+            background: rgba(0,0,0,0.3);
+            text-align: center;
+            color:#fff;
+        }
+        .par-txt{
+            background:none;
+            color:#333;
+        }
+        p{
+            font-size:14px;
+            color:#999;
+            line-height:1.7;
+        }
+        .header{
+            background:url(/images/coffee.gif) no-repeat center/cover;
+        }
+        .header,.parallax02,.parallax04,.footer{
+            background:no-repeat center/cover fixed;
+        }
+        .parallax01,.parallax03,.parallax05{
+            box-sizing:border-box;
+            height:auto;
+            padding:60px;
+        }
+        .header{
+            background-image:url(/images/coffee1.jpg)
+        }
+        .parallax02{
+            background-image:url(/images/coffee2.jpg)
+        }
+        .parallax04{
+            background-image:url(/images/coffee3.jpg)
+        }
+        .footer{
+            background-image:url(/images/coffee4.jpg);
+        }
+    </style>
+</head>
+<body>
+    <section class="wrap">
+        <header class="header">
+            <h1>parallax</h1>
+        </header>
+        <section class="sec parallax01">
+            <h2 clas="par-txt">parallax text</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum expedita
+            molestiae enim nesciunt. Commodi voluptate ab illum praesentium exercitationem?
+            Error praesentium expedita, distinctio facere aperiam repellendus voluptatem est ad!</p>
+        </section>
+        <section class="sec parallax02">
+            <h2>scroll</h2>
+        </section>
+        <section class="sec parallax03">
+            <h2 class="par-txt">parallax text</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vero fuga quam suscipit nam sapiente qui architecto, expedita quia porro unde vitae quibusdam a eos, magni illum repellendus deserunt voluptas?
+            Tenetur molestiae nemo expedita itaque, voluptate excepturi cupiditate, hic repellat facere quae repudiandae quo praesentium accusamus laudantium reprehenderit dicta velit voluptas totam blanditiis possimus dignissimos beatae perspiciatis! Officia, ut non.
+            Sit autem cum, itaque exercitationem accusamus quasi commodi perferendis unde laudantium adipisci ipsum tenetur reiciendis! Dolor, dignissimos quibusdam aliquam quae laborum, quidem officia repellat expedita laudantium iure magni debitis! Molestias?
+        </p>
+        </section>
+        <section class="sec parallax04">
+            <h2>scroll</h2>
+        </section>
+        <section class="sec parallax05">
+            <h2 class="par-txt">parallax text</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit qui molestias temporibus animi laboriosam, aspernatur architecto distinctio sit eaque nihil quos maiores consequatur perferendis? Odit maiores tempora hic laboriosam fugit!
+            Maxime atque et aliquid maiores magni consequuntur in ratione ut aspernatur accusamus, amet eius porro a accusantium rerum iste incidunt quas rem omnis vitae ullam sit voluptas nam possimus? Aut.
+            Nesciunt voluptates dolor consequatur, molestias numquam qui, explicabo natus consequuntur aperiam error nam veniam blanditiis. Ipsa voluptatibus, in ea, impedit et sapiente animi quas laudantium iste maiores asperiores ex molestias?
+            Perferendis, saepe. Natus ut, adipisci a doloribus odit ullam recusandae, esse obcaecati accusantium et ab sint consectetur quam amet aut asperiores ipsam incidunt fuga aspernatur expedita illum, est rem? Explicabo.
+        </p>
+        </section>
+        <footer class="footer">
+            <h2>parallax</h2>
+        </footer>
+    </section>
+</body>
+</html>
