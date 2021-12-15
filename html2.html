@@ -5,43 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Wide Web</title>
-    <link rel="stylesheet" href="/css/default.css">
-    <style>
-        /* button{
-            padding:10px 20px;
-            font-weight:bold;
-            font-size:20px;
-            position:absolute;
-            left:200px;
-            top:24px;
-        } */
-    </style>
+    <link rel="stylesheet" href="./default.css">
+   
 </head>
 <body>
-    <h1>WEB</h1> 
-    <button>dark</button>
-
-   <ol>
-        <li><a href="/html/html2.html">HTML</a></li>
-        <li><a href="/html/css2.html">CSS</a></li>
-        <li><a href="/html/js2.html">javaScript</a></li>
-   </ol>
+    <h1>WEB</h1>
+    <button>dark</button>    
+    <ol>
+        <li><a href="./html2.html">HTML</a></li>
+        <li><a href="./css2.html">CSS</a></li>
+        <li><a href="./js2.html">javaScript</a></li>
+    </ol>
     <div>
         <h2>HTML</h2>
-        <img src="/images/img-html.jpg" alt="HTML 이미지">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id hic delectus saepe, illum voluptas distinctio molestias, officia earum ipsum debitis sit beatae nulla labore nobis. Commodi necessitatibus nobis repudiandae asperiores.
+        <img src="./img-html.jpg" alt="html image">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ut similique distinctio mollitia perferendis doloremque vero ipsa ex reprehenderit explicabo necessitatibus iste fugiat est, veritatis eveniet. Quae et dolores odio?
             <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, fugit numquam porro esse a voluptates reprehenderit omnis dolorem harum. Facilis placeat ex reprehenderit maiores et nostrum, sed ab. Inventore, delectus.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti laudantium iure neque harum magni sit illum quasi, debitis totam aut nobis blanditiis maxime fugiat tenetur voluptatum nihil consectetur similique? Sequi?
             <br>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusantium obcaecati error fugiat nobis doloribus saepe doloremque sed possimus, perferendis dolor nemo quas ad quia distinctio praesentium animi totam quasi!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatibus? Enim, molestias. Illo inventore nostrum doloremque saepe laboriosam accusantium porro beatae magnam dolor voluptatem! Molestias nam alias omnis a ipsa.
         </p>
-    </div>
-    <script src="/js/jquery-3.6.0.js"></script>
+    </div> 
+    <script src="./jquery-3.6.0.js"></script>     
     <script>
         $('button').click(function(){
             $('body').css({'background-color':'black'});
             $('h1').css({'border-bottom':'5px solid white'});
-            $('ol,h1,h2,p').css({'color':'white'});
+            $('h1,ol,h2,p').css({'color':'white'});
             $('a').css({'color':'lightblue'});
         });
     </script>

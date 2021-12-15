@@ -1,12 +1,12 @@
 h1{
-    text-align: center;
+    text-align:center;
     font-size:32px;
 }
-ol {
+ol{
     float:left;
-    width:15%;
+    width:200px;
 }
-div {
+div{
     float:left;
     width:600px;
 }
